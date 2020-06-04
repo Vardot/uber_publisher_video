@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.video
+id: node_type_video
+action: display_page
+allow_override: 0
+redirect: ''
+redirect_code: 301

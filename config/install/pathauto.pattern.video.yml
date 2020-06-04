@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: video
+label: Video
+type: 'canonical_entities:node'
+pattern: 'video/[node:title]'
+selection_criteria:
+  df2b6857-90d1-4272-b55a-896dd9a02eda:
+    id: node_type
+    bundles:
+      video: video
+    negate: false
+    context_mapping:
+      node: node
+    uuid: df2b6857-90d1-4272-b55a-896dd9a02eda
+selection_logic: and
+weight: -5
+relationships: {  }
