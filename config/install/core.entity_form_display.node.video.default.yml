@@ -10,7 +10,7 @@ dependencies:
     - field.field.node.video.field_url
     - field.field.node.video.field_yoast_seo
     - node.type.video
-    - workflows.workflow.varbase_basic_workflow
+    - workflows.workflow.varbase_editorial_workflow
   module:
     - advanced_text_formatter
     - content_moderation
