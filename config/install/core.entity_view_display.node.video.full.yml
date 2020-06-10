@@ -101,7 +101,7 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 1
+            weight: 2
           28db3f0e-f2c9-4780-b135-56e6d6e00ef1:
             uuid: 28db3f0e-f2c9-4780-b135-56e6d6e00ef1
             region: left
@@ -249,6 +249,18 @@ third_party_settings:
               context_mapping: {  }
             additional: {  }
             weight: 0
+          39ad4015-38fb-4ab9-9936-85cf7b4389b4:
+            uuid: 39ad4015-38fb-4ab9-9936-85cf7b4389b4
+            region: top
+            configuration:
+              id: 'extra_field_block:node:video:content_moderation_control'
+              label: 'Moderation control'
+              provider: layout_builder
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
         third_party_settings: {  }
   layout_library:
     enable: false
