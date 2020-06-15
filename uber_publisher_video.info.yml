@@ -8,5 +8,4 @@ dependencies:
   - varbase_seo:varbase_seo
   - views_infinite_scroll:views_infinite_scroll
 package: 'Uber Publisher'
-core: 8.x
 core_version_requirement: ^8 || ^9
