@@ -1,6 +1,6 @@
 {
   "name": "drupal/uber_publisher_video",
-  "description": "News stories told and displayed in a video.",
+  "description": "Provides a Video content type with its dependents.",
   "type": "drupal-module",
   "homepage": "https://www.drupal.org/project/uber_publisher_video",
   "license": "GPL-2.0-or-later",
@@ -27,10 +27,11 @@
     }
   },
   "require": {
-    "composer/installers": "^1.5.0",
-    "oomphinc/composer-installers-extender": "^1.1.2",
-    "cweagans/composer-patches": "^1.6.4",
-    "drupal/drupal-library-installer-plugin": "^0.3"
+    "composer/installers": "~1.0 || ~2.0",
+    "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
+    "cweagans/composer-patches": "~1.0",
+    "drupal/core": "~8.0 || ~9.0",
+    "drupal/uber_publisher_core": "~7.0 | 7.0.x-dev"
   },
   "extra": {
     "branch-alias": {

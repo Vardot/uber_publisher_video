@@ -1,11 +1,12 @@
 name: 'Uber Publisher Video'
-description: 'Uber Publisher Video content type with its dependents.'
+description: 'Provides a Video content type with its dependents.'
 type: module
+package: 'Uber Publisher'
+core_version_requirement: ^8 || ^9
 dependencies:
-  - uber_publisher_core:uber_publisher_core
   - varbase_core:varbase_core
   - varbase_media:varbase_media
   - varbase_seo:varbase_seo
+  - uber_publisher_core:uber_publisher_core
   - views_infinite_scroll:views_infinite_scroll
-package: 'Uber Publisher'
-core_version_requirement: ^8 || ^9
+ 
